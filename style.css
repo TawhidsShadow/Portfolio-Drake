@@ -251,7 +251,8 @@ body {
   position: absolute;
   width: 380px;
   height: 380px;
-  background: var(--background-color);
+  /* background: var(--background-color); */
+  background: Black;
   border-radius: 50%;
 }
 
@@ -279,6 +280,7 @@ body {
 
 .image img {
   position: absolute;
+  top: 30px;
   left: 50%;
   transform: translate(-50%);
   max-width: 350px;
